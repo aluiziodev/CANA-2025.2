@@ -9,7 +9,7 @@ void printVetor(int V[], int n){
 }
 
 /*PARTICIONAMENTO INVERSO, DADO PIVO=q:
-    [.....]>= q < [.........]
+    [.....]>= q >[.........]
 */
 int particiona(int V[], int i, int f, int pivo){
     int it = i-1;
