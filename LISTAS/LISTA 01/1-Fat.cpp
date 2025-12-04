@@ -23,3 +23,9 @@ PASSO (Suponha fat(n-1)=(n-1)!, provemos fat(n)=n!):
 
 logo, a funçao fat funciona para todo n natural.
 */
+
+int main(){
+    int n = 5;
+    cout << "Fatorial de " << n << " é " << fat(n) << endl;
+    return 0;
+}
