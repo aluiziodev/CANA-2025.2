@@ -33,6 +33,7 @@ obj/
 *.DS_Store
 
 # Visual Studio / Code::Blocks / CLion / etc
+.vscode/
 .vs/
 *.user
 *.suo
