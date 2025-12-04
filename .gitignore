@@ -1,4 +1,5 @@
 # Compilação
+.output/
 *.o
 *.obj
 *.exe
