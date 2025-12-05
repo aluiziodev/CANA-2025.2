@@ -8,7 +8,12 @@ void printVetor(int V[], int n){
     cout << endl;   
 }
 
+/*
+COUNTING SORT
+Given an array of n integers where each integer is in the range 0 to k,
+sort the array in ascending order using counting sort algorithm.
 
+*/
 
 void countingSort(int V[], int n, int k){
     int C[k+1];
@@ -24,7 +29,7 @@ void countingSort(int V[], int n, int k){
     for(int i=0;i<n;i++) V[i] = B[i];
 
 }
-
+// Complexidade: O(n + k)
 
 int main(){
     

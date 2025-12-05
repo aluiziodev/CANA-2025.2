@@ -3,6 +3,11 @@
 using namespace std;
 typedef vector<int> vi;
 
+/*
+Rod Cutting Problem
+Given a rod of length n inches and a table of prices P[i] for i = 1, 2, ..., n,
+determine the maximum revenue obtainable by cutting up the rod and selling the pieces.
+*/
 
 int hastes(int P[], int n){
     int memo[n+1];

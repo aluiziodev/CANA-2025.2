@@ -8,7 +8,10 @@ void printVetor(int V[], int n){
     cout << endl;   
 }
 
-// ORDENAÇAO PELO MENOR
+/*
+SELECTION SORT
+Given an array, sort the array in ascending order using selection sort algorithm.
+*/
 
 void ordenaMenor(int V[], int n){
     for(int i =0; i<n; i++){
@@ -23,11 +26,13 @@ void ordenaMenor(int V[], int n){
         V[menor] = aux;
     }
 }
-
 // Complexidade:  O(N^2)
 
 
-// BUBBLE SORT
+/*
+BUBBLESORT
+Given an array, sort the array in ascending order using bubble sort algorithm.
+*/
 
 
 void bubbleSort(int V[], int n){
@@ -39,11 +44,13 @@ void bubbleSort(int V[], int n){
         }
     }
 }
-
 // Complexidade:  O(N^2)
 
 
-// INSERTIONSORT
+/*
+INSERTION SORT
+Given an array, sort the array in ascending order using insertion sort algorithm.
+*/
 
 void insertionSort(int V[], int n){
     for(int i = 0; i<n; i++){
@@ -54,7 +61,6 @@ void insertionSort(int V[], int n){
         }
     }
 }
-
 // Complexidade:  O(N^2)
 
 

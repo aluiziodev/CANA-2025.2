@@ -21,7 +21,11 @@ void printVetor(int V[], int n){
     cout << endl;   
 }
 
-// HEAPSORT
+/*
+HEAPSORT
+Given an array, sort the array in ascending order using heap sort algorithm.
+
+*/
 
 
 void descer(int V[], int n, int i){

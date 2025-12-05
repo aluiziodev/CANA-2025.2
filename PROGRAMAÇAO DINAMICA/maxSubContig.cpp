@@ -3,7 +3,10 @@
 using namespace std;
 
 
-// MAIOR SUBSEQUENCIA CONTÍGUA
+/*
+Maximum Subarray Problem
+Find the contiguous subarray within a one-dimensional array of numbers which has the largest sum.
+*/
 
 int maxSubCont(int V[], int n){
     int maxS = V[0];

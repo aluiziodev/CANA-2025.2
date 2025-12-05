@@ -2,6 +2,13 @@
 #define INTMAX 1000
 using namespace std;
 
+/* 
+LCS - Longest Common Subsequence
+Given two sequences, find the length of longest subsequence present in both of them.
+A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
+For example, "ABC", "ABG", "BDF", "Aeg", '"aceg", .. etc are subsequences of "ABCDEFG"
+*/
+
 string memo[INTMAX][INTMAX];
 
 void init(){

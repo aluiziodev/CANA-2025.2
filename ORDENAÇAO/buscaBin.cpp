@@ -3,7 +3,10 @@
 using namespace std;
 
 
-// BUSCA BINARIA
+/*
+Binary Search
+Given a sorted array and a target value, determine if the target exists in the array. 
+*/
 
 int buscaBinaria(int V[], int inicio, int fim, int target){
     if(fim>=inicio){
@@ -14,7 +17,9 @@ int buscaBinaria(int V[], int inicio, int fim, int target){
     }
     return -1;
 }
-// Complexidade: O(Log(n))
+/*
+    complexidade: O(log n)
+*/
 
 
 int main(){

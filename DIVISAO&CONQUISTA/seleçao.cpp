@@ -2,6 +2,12 @@
 
 using namespace std;
 
+/*
+K-th Smallest Element - Median of Medians Algorithm
+Given an unsorted array, find the k-th smallest element in the array.
+
+*/
+
 int particiona(int V[], int i, int f, int pivo){
     for(int k = i; k<=f; k++){
         if(V[k] == pivo){
@@ -43,6 +49,7 @@ int selecao(int V[],int k, int i, int f){
     else if(q - i + 1 < k) return selecao(V,  k-(q -i + 1), q+1, f);
     else return selecao(V, k, i, q-1);
 } 
+// Complexidade: O(n)
 
 
 

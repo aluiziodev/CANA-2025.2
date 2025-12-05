@@ -8,6 +8,12 @@ void printVetor(int V[], int n){
     cout << endl;   
 }
 
+/*
+QUICK SORT
+Given an array, sort the array in ascending order using quick sort algorithm.
+
+*/
+
 
 int particiona(int V[], int i, int f, int pivo){
     int it = i-1;
@@ -31,7 +37,7 @@ void quickSort(int V[], int i, int f){
         quickSort(V, p+1, f);
     }
 }
-
+// Complexidade: O(n log n) no caso médio e O(n^2) no pior caso
 
 int main(){
     

@@ -8,6 +8,11 @@ void printVetor(int V[], int n){
     cout << endl;   
 }
 
+/*
+RADIX SORT
+Given an array of n integers where each integer is in the range 0 to d digits,
+sort the array in ascending order using radix sort algorithm.
+*/
 
 void coutingSort(int V[], int bit, int n){
     int C[10];
@@ -30,6 +35,7 @@ void radixSort(int V[], int n, int d){
         bit *= 10;
     }
 }
+// Complexidade: O(d*n)
 
 
 int main(){

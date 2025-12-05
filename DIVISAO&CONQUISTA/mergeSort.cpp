@@ -9,7 +9,11 @@ void printVetor(int V[], int n){
 }
 
 
-// MERGESORT (RECURSIVO)
+/*
+MERGE SORT
+Given an array, sort the array in ascending order using merge sort algorithm.
+
+*/
 
 
 

@@ -3,6 +3,14 @@
 using namespace std;
 typedef vector<int> vi;
 
+/*
+Hotel Stops Problem
+Given a sequence of distances of hotels along a route, find the sequence of hotel stops 
+that minimizes the total penalty. The penalty for stopping at a hotel is defined as the square 
+of the difference between 200 miles and the distance traveled since the last stop.
+
+*/
+
 vi hoteisSeq(int V[], int n, int k){
     vector<vi> seqHoteis(n);
     int memo[n];
